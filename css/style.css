@@ -1,0 +1,16 @@
+@charset 'UTF-8';
+
+#promotion {overflow:hidden; position:relative; height:100%;}
+#promotion #content {height:100%; min-height:600px;}
+
+#content .content-box {overflow:hidden; position:absolute; left:0; width:100%; height:100%;}
+
+.scene1 .type1, .type1 {top:0; background-color:#f7f4ee;}
+.scene2 .type2, .type2 {top:100%; background-color:#65f7cc;}
+.scene3 .type3, .type3 {top:100%; background-color:#f7d465;}
+.scene4 .type4, .type4 {top:100%; background-color:#fdb9b9;}
+
+.paging-bullet {position:fixed; top:50%; right:5%; width:28px; margin-top:-90px;}
+.paging-bullet .link-page {overflow:hidden; display:block; width:13px; height:13px; margin:8px auto 0; border:3px solid rgba(0,0,0,.3); border-radius:9px;
+font-size:0; line-height:0; text-indent:-9999px; color:#333;}
+.paging-bullet .link-page.on {border:3px solid #444; background-color:#444;}
