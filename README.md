@@ -1,5 +1,4 @@
 ## scroll-event-screen-move-js
-마우스 스크롤 이벤트 페이지
 
 
 #### [Mobile] bullet 요소를 클릭 했을 때, document touch 이벤트와 중복 이벤트가 발생 되었을 경우. 
