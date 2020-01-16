@@ -20,3 +20,31 @@ function handleCancel(event) {
 
 document.addEventListener("touchcancel", handleCancel, false);
 </code></pre>
+
+#### [jQuery] $(selector).each(), $.each문 차이
+$(selector).each()문은 일치하는 객체의 수만큼 반복하는 함수이다.
+$.each문은 객체와 배열을 반복하는 반복 함수이다.
+
+<pre><code>
+// $(selector).each()문
+
+// $.each문
+
+1. array 
+$.each([62, 94], function(index, value){
+    console.log(index + ': ' + value);
+});
+
+// 0: 62
+// 1: 94
+
+2. object
+var obj = {'a': 1, 'b': 2};
+$.each(obj, function(key, value) {
+    console.log(key + ': ' + value);
+});
+
+// a: 1
+// b: 2
+</code></pre>
+
